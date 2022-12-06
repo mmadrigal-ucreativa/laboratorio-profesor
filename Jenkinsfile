@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'worker-dev'
+        label 'worker-qa'
     }
 
 
@@ -22,4 +22,6 @@ pipeline {
                 }
             }
         }
+
+    }
 }
